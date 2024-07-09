@@ -1,4 +1,56 @@
 body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: auto;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(61, 60, 66);
+    color: white;
+    width: 400px;
+    height: 400px;
+    border: white;
+    border-radius: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+#verse {
+    font-size: 1.25em;
+    overflow: auto;
+    word-wrap: break-word;
+    text-align: center;
+    flex: 1;
+    
+}
+
+#generateBtn {
+    color: white;
+    background-color: darkviolet;
+    border: none;
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#generateBtn:hover {
+    background-color: rgb(213, 127, 250);
+}
+
+#generateBtn:active {
+    background-color: darkviolet;
 }
